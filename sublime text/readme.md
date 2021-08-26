@@ -20,6 +20,6 @@ After that go to your cpp file that you want to run and select CPP as your build
 
 To create your custom build system for PHP go to Tools>Build System>New Build System...\
 <img src="assets\build.png" height="410px" width="350px" alt="build.png"/>\
-Now copy and paste this <a href="PHP.sublime-build">PHP</a> build system on your sublime-build file and save it as PHP.sublime-build .\
+Now copy and paste this <a href="PHP.sublime-build">PHP</a> build system on your sublime-build file. Replace `"C:\\xampp\\php\\php.exe"` with your php.exe path. In my case I've added php from xampp.Then save it as PHP.sublime-build .\
 Go to your php file that you want to run and select PHP as your build system and run then.\
 *Happy Coding!*
